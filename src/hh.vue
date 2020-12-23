@@ -40,7 +40,7 @@
                    'date': '2017-12-16'
                  }, {
                     'title': '无缝滚动第二行无缝滚动第二行',
-                    'date': '2017-12sdcdc-16'
+                    'date': '2017-12-16'
                  }, {
                      'title': '无缝滚动第三行无缝滚动第三行',
                      'date': '2017-12-16'
@@ -86,9 +86,7 @@
             computed: {
                 optionHover () {
                     return {
-                           switchDelay:10000,
-                            isSingleRemUnit:true,
-                            
+                            hoverStop: false
                         }
                 }
              }
